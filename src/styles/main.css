@@ -1,1 +1,21 @@
+h1 {
+    margin-top: 30px;
+    color: #000000;
+    font-style: italic;
+}
 
+.todo-input {
+    color: black;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    font-style: italic;
+}
+
+.todo-btn {
+    width: 100px;
+    background-color: #2339a0;
+    color: white;
+    border-radius: 3px;
+}
