@@ -19,3 +19,16 @@ h1 {
     color: white;
     border-radius: 3px;
 }
+
+.todo-item {
+    padding: 10px 10px 0 0;
+    color: #000000;
+}
+
+.todo-input:focus {
+    outline: none;
+}
+
+.todo-btn:focus {
+    outline: none;
+}
