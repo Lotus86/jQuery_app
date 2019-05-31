@@ -16,8 +16,3 @@ $(document).ready(function(){
         }
     })
 });
-
-function removeItem() {
-    var = $('.todo-list').on
-}
-
