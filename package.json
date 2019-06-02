@@ -5,6 +5,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.2",
     "browser-sync": "^2.26.5",
     "gulp": "^3.8.11",
     "gulp-autoprefixer": "^6.1.0",

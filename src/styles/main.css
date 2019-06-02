@@ -1,7 +1,13 @@
 h1 {
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
     color: #000000;
     font-style: italic;
+}
+
+.container-todo {
+    line-height: 25px;
 }
 
 .todo-input {
@@ -11,11 +17,29 @@ h1 {
     border-radius: 3px;
     border: 1px solid #000000;
     font-style: italic;
+    padding: 5px;
 }
 
 .todo-btn {
     width: 100px;
+    height: 38px;
     background-color: #2339a0;
     color: white;
     border-radius: 3px;
+}
+
+.todo-item {
+    padding: 10px 10px 0 0;
+    color: #000000;
+}
+
+.todo-item-delete {
+    display: inline-block;
+    font-size: small;
+    background: none;
+    border: none;
+}
+
+.todo-input:focus, .todo-btn:focus, .todo-item-delete:focus {
+    outline: none;
 }
