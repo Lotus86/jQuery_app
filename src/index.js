@@ -1,8 +1,9 @@
-var $todoInput       = $('.todo-input');
-var $todoList        = $('.todo-list');
-var $todoBtn         = $('.todo-btn');
-var $todoItem        = $('.todo-item');
-var $todoItemDelete  = $('.todo-item-delete');
+var
+    $todoInput       = $('.todo-input'),
+    $todoList        = $('.todo-list'),
+    $todoBtn         = $('.todo-btn'),
+    $todoItem        = $('.todo-item'),
+    $todoItemDelete  = $('.todo-item-delete');
 
 function addToList() {
     var newItem = $todoInput.val().trim();
@@ -15,6 +16,13 @@ function addToList() {
     );
     $todoInput.val('').trigger('input');
 };
+
+$todoInput.keypress(function(e){
+    var keycode = (e.keyCode ? e.keyCode : e.which);
+    if(keycode == '13'){
+        addToList();
+    }
+});
 
 $todoBtn.on('click', addToList);
 
