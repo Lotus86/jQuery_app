@@ -6,6 +6,18 @@ h1 {
     font-style: italic;
 }
 
+li  {
+    display: block;
+    padding: 10px 10px 0 0;
+    margin-top: 10px;
+    line-height: 20px;
+    list-style: none;
+}
+
+ul.todo-list {
+    padding: 0;
+}
+
 .container-todo {
     line-height: 25px;
 }
@@ -16,21 +28,24 @@ h1 {
     margin-top: 20px;
     border-radius: 3px;
     border: 1px solid #000000;
-    font-style: italic;
     padding: 5px;
 }
 
 .todo-btn {
     width: 100px;
     height: 38px;
-    background-color: #2339a0;
+    background-color: #4da04d;
     color: white;
     border-radius: 3px;
 }
 
+.todo-btn:active {
+    background-color: #09a008;
+}
+
 .todo-item {
-    padding: 10px 10px 0 0;
-    color: #000000;
+    display: inline-block;
+    margin-left: 2px;
 }
 
 .todo-item-delete {
@@ -38,6 +53,12 @@ h1 {
     font-size: small;
     background: none;
     border: none;
+}
+
+.item-text {
+    display: inline-block;
+    margin-left: 5px;
+    color: #000000;
 }
 
 .todo-input:focus, .todo-btn:focus, .todo-item-delete:focus {
