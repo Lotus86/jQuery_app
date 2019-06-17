@@ -1,9 +1,12 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
 h1 {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     color: #000000;
-    font-style: italic;
 }
 
 li  {
@@ -29,6 +32,7 @@ ul.todo-list {
     border-radius: 3px;
     border: 1px solid #000000;
     padding: 5px;
+    font-size: large;
 }
 
 .todo-btn {
@@ -58,7 +62,13 @@ ul.todo-list {
 .item-text {
     display: inline-block;
     margin-left: 5px;
+    font-size: large;
     color: #000000;
+}
+
+.item-text-decoration {
+    text-decoration: line-through;
+    font-style: italic;
 }
 
 .todo-input:focus, .todo-btn:focus, .todo-item-delete:focus {
