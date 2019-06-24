@@ -33,6 +33,7 @@ ul.todo-list {
     border: 1px solid #000000;
     padding: 5px;
     font-size: large;
+    font-style: italic;
 }
 
 .todo-btn {
@@ -41,6 +42,7 @@ ul.todo-list {
     background-color: #4da04d;
     color: white;
     border-radius: 3px;
+    font-style: italic;
 }
 
 .todo-btn:active {

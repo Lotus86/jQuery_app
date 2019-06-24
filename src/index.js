@@ -21,16 +21,21 @@ function addToList() {
     //Checked|unchecked list items
     $newItem.on('click', '.todo-item', function() {
         if ($(this).prop('checked')) {
-            $('.item-text').addClass('item-text-decoration');
+            $(this).parent().children('.item-text').addClass('item-text-decoration');
         } else {
-            $('.item-text').removeClass('item-text-decoration');
+            $(this).parent().children('.item-text').removeClass('item-text-decoration');
         }
     });
 }
 
+// //Double click
+// $('.item-text').dblclick( function () {
+//     const =
+// });
+
 //Add items by Enter button
 $todoInput.keypress(function(e){
-    var keycode = (e.keyCode ? e.keyCode : e.which);
+    const keycode = (e.keyCode ? e.keyCode : e.which);
     if(keycode == '13'){
         addToList();
     }
