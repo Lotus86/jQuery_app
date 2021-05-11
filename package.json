@@ -20,6 +20,8 @@
     "imagemin-pngquant": "^7.0.0",
     "jquery": "^3.5.0",
     "node-sass": "^4.12.0",
+    "jquery": "^3.4.1",
+    "node-sass": "^4.13.1",
     "rimraf": "^2.6.3"
   }
 }
